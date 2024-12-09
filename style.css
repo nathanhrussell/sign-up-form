@@ -22,8 +22,8 @@ html, body {
     position: relative;
     border: 2px solid blue;
     overflow: hidden;
-    display: flex; /* Enable Flexbox */
-    justify-content: center; /* Center horizontally */
+    display: flex;
+    justify-content: center;
   }
   
   .image-container {
@@ -47,8 +47,14 @@ html, body {
   
   .logo-container {
     position: absolute;
+    top: 250px;
+    left: 0;
+    width: 100%;
     color: white;
     font-size: 60px;
-    margin-top: 350px;
     font-family: "NorseBold", sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 15px 0;
+    box-sizing: border-box;
   }
