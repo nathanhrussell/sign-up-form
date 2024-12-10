@@ -68,3 +68,29 @@ html, body {
   .logo-container img {
     height: 100px;
   }
+
+  .credit-container {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    font-family: "Arial", sans-serif;
+    padding: 15px 0;
+    box-sizing: border-box;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25em;
+  }
+
+  .credit-container a {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  .credit-container a:hover {
+    color: #add8e6;
+    text-decoration: none;
+  }
