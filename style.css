@@ -153,4 +153,5 @@ html, body {
     font-family: "Arial", sans-serif;
     text-align: left;
     padding-right: 836px;
+    white-space: nowrap;
   }
