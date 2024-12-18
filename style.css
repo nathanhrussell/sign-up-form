@@ -109,3 +109,35 @@ html, body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     height: 190px;
   }
+
+  .form-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+  .form-row {
+    flex: 1 1 calc(50% - 15px);
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.form-row input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+  h2 {
+    font-size: 20px;
+    font-family: "Arial", sans-serif;
+  }
