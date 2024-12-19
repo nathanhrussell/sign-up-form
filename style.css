@@ -42,15 +42,15 @@ html, body {
   
   .right-container {
     flex: 2 1 66.67%;
+    border: 2px solid red;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 30px;
     box-sizing: border-box;
-    padding: 20px;
-    overflow-y: auto;
   }
-  
+
   .logo-container {
     position: absolute;
     top: 175px;
@@ -105,56 +105,57 @@ html, body {
     font-size: 20px;
     font-family: "Arial", sans-serif;
     font-weight: bold;
-    padding: 20px;
-    text-align: center;
+    padding: 24px;
+    text-align: left;
     background-color: #f8f9fa;
     width: 100%;
     box-sizing: border-box;
   }
 
   .form-container {
-    width: 100%;
-    max-width: 600px;
+    width: calc(100% - 30px);
+    max-width: none;
+    height: 100%;
     background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 0;
+    box-shadow: none;
     box-sizing: border-box;
   }
 
-  .form-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
+    .form-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+  }
 
-.form-row {
-    flex: 1 1 calc(50% - 10px);
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-}
+  .form-row {
+      flex: 1 1 calc(50% - 10px);
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+  }
 
-.form-row label {
-    margin-bottom: 5px;
+  .form-row label {
+      margin-bottom: 5px;
+      font-size: 14px;
+      color: #333;
+  }
+
+  .form-row input {
+    width: 50%;
+    padding: 5px;
     font-size: 14px;
-    color: #333;
-}
-
-.form-row input {
-  width: 50%;
-  padding: 5px;
-  font-size: 14px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
 
 
-h2 {
-  font-size: 20px;
-  font-family: "Arial", sans-serif;
-  text-align: left;
-  padding-right: 836px;
-  white-space: nowrap;
-}
+  h2 {
+    font-size: 20px;
+    font-family: "Arial", sans-serif;
+    text-align: left;
+    padding-right: 836px;
+    white-space: nowrap;
+  }
