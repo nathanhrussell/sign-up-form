@@ -139,7 +139,7 @@ html, body {
   }
 
   .form-row input {
-    width: 100%;
+    width: 60%;
     padding: 1%;
     font-size: 1vw;
     border: 1px solid #ccc;
