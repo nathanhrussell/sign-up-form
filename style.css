@@ -162,3 +162,9 @@ h2 {
     padding-right: 5%;
     white-space: normal;
 }
+
+#password:invalid, #confirm-password:invalid {
+    border: none;
+    outline: 2px solid red;
+    border-radius: 5px;
+  }
