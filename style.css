@@ -173,3 +173,9 @@ h2 {
     outline: 1px solid #0056B3;
     box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
 }
+
+input:valid {
+    border: none;
+    outline: 2px solid lightgreen;
+    border-radius: 5px;
+}
