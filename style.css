@@ -179,3 +179,13 @@ input:valid {
     outline: 2px solid lightgreen;
     border-radius: 5px;
 }
+
+button {
+    color: #ffffff;
+    background-color: #327637;
+    font-size: 19px;
+    border: 1px solid #327637;
+    border-radius: 15px;
+    padding: 15px 50px;
+    cursor: pointer
+}
