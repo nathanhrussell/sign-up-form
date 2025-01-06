@@ -121,6 +121,7 @@ html, body {
     margin: 0;
     border-radius: 0;
     box-sizing: border-box;
+    box-shadow: 0px 6px 5px 0px #00000040;
 }
 
 .form-grid {
