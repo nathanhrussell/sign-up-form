@@ -198,3 +198,15 @@ button {
 .button-container {
     position: relative;
 }
+
+.login-container {
+    position: relative;
+}
+
+.login-container p {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    top: 120px;
+    left: 30px;
+    position: absolute;
+}
