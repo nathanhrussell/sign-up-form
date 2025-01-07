@@ -184,9 +184,10 @@ input:valid {
 
 button {
     color: #ffffff;
-    background-color: #327637;
+    background-color: #606c4c;
     font-size: 19px;
-    border: 1px solid #327637;
+    font-weight: bold;
+    border: 1px solid #606c4c;
     border-radius: 15px;
     padding: 15px 50px;
     cursor: pointer;
