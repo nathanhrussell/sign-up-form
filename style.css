@@ -189,5 +189,12 @@ button {
     border: 1px solid #327637;
     border-radius: 15px;
     padding: 15px 50px;
-    cursor: pointer
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.button-container {
+    position: relative;
 }
